@@ -34,6 +34,9 @@ In this file, I was tasked with creating a script called scramble.sh that requir
 The script had to contain the four following functions:
 
 to_array fills in an array of length  by copying the characters of a string of length  into the array; the array and string are stored in variables created in the main body of the script. Nothing is printed to standard output.
+
 to_string creates a string by concatenating the elements of an array together; the array is stored in a variable created in the main body of the script. The string is printed to standard output so that the value can be used elsewhere.
+
 rand generates a random integer value between  (inclusive) and  (exclusive) where  and  are arguments passed to the function. The random number is printed to standard output so that the value can be used elsewhere.
+
 shuffle implements the Fisher-Yates shuffling algorithm to randomly shuffle the elements of an array; the array is stored in a variable created in the main body of the script. Nothing is printed to standard output.
